@@ -8,10 +8,6 @@ FactoryBot.define do
 
     # FactoryBotのtraitを使用
     trait :another_task do
-      status {:done}
-      completion_date { Time.current.yesterday }
-      project_id { project.id }
-
       # アソシエーションの設定
       association :project
     end
