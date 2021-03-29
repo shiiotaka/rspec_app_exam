@@ -7,9 +7,7 @@ FactoryBot.define do
     deadline { Random.rand(from..to) }
 
     # FactoryBotのtraitを使用
-    trait :another_task do
-      # アソシエーションの設定
-      association :project
-    end
+    trait :another_task do; end
+    association :project
   end
 end
