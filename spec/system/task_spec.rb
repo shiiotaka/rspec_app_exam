@@ -1,5 +1,4 @@
 require 'rails_helper'
-include ApplicationHelper
 
 RSpec.describe 'Task', type: :system do
   describe 'Task一覧' do
