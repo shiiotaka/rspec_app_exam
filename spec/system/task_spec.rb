@@ -1,8 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe 'Task', type: :system do
-  let(:project) {create(:project)}
-  let(:task) {create(:task)}
+  let(:project) { create(:project) }
+  let(:task) { create(:task) }
 
   describe 'Task一覧' do
     context '正常系' do
