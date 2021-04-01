@@ -8,7 +8,7 @@ FactoryBot.define do
 
     # FactoryBotのtraitを使用
     trait :another_task do
-      status {'done'}
+      status { :done }
       completion_date { Time.current.yesterday }
     end    
     association :project
